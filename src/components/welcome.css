@@ -1,0 +1,59 @@
+body{
+
+    background-color: rgb(226, 43, 217);
+}
+.whole{
+    text-align: center;
+}
+.question{
+    font-size:80px;
+     position: absolute;
+     top: 241px;
+    left: 80%;
+    animation-name:ques;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+    } 
+    @keyframes ques {
+       to{
+        transform: rotate(360deg);
+       }
+       0%{
+        top:50px;
+     left:0px;
+       }
+       20%{
+        top:165px;
+        left:20%;
+       }
+       40%{
+        top:70px;
+     left:40%;
+       }
+        60%{
+            top:165px;
+        left:60%; 
+        }
+        80%{
+            top:70px;
+     left:70%; 
+        }
+        100%{
+            top: 241px;
+    left: 80%;
+        }
+    } 
+.head{
+    text-align: center;
+    margin-top:240px;
+    font-size:80px;
+    outline: 1px solid rgb(0, 0, 0); }
+.but{
+    border:transparent;
+    padding:10px 40px 10px 40px;
+    font-size:20px;
+    border-radius:30px;
+    box-shadow:3px 3px 3px black;
+
+}

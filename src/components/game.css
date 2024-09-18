@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(226, 43, 156);
+    text-align: center
+}
+
+.im{
+    border-radius: 50%;
+}
+.profile{
+    position: absolute;
+    right: 2%;
+    margin-top: 10px;
+    line-height:1px;
+}
+.para{
+    font-size:40px;
+}
+
+.button{
+    padding:10px 20px 10px 20px;
+    border:none;
+    font-size: 20px;
+    background-image:linear-gradient(90deg,rgb(116, 223, 55),rgb(85, 129, 225));
+    border-radius: 10px;
+}
+.inputbox{
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+font-size: 20px;}
+
+h3{
+    color: red;
+}
+.wholenum{
+    margin-top: 100px;
+}
+.timer{
+    width: 97px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 43px 13px 0px 13px;
+    background-color: black;
+    border: 7px solid rgb(64, 202, 10);
+    border-radius: 50%;
+}
+.timer span{
+    color: white;
+   
+}
